@@ -1,0 +1,12 @@
+void setup(){
+  size(1000, 300);
+  textSize(128);
+}
+int i,a=1;
+void draw(){
+  background(0,255,0); // grb
+  if(keyPressed)
+    a = key-'0';
+  text("i love graphics♥" , i=i+a , 200);
+  if(i>800) i = 0;
+}
